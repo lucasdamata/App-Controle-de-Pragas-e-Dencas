@@ -1,0 +1,7 @@
+{
+  "name": "CPD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
