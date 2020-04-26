@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonAvatar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
@@ -9,9 +9,11 @@ const Tab2: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>
-            <IonAvatar>
-              <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y" />
+            
+            <IonAvatar class="ion-float-right">
+              <img src="https://lh3.googleusercontent.com/Kiqt-P8b-3bwCBgieTcuwq8evVy7UWzvxj3MLyFJQ59dfEzp1MdcFyUpDDwfqv-zwPJA" />
             </IonAvatar>
+
           </IonTitle>
         </IonToolbar>
       </IonHeader>
